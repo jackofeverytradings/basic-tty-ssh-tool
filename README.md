@@ -69,6 +69,39 @@ Quick guide : this file contains all ur servers info in a line format
                 Enjoy and Thanks ! ☕ 😎
                 
 -----------------------------------------------------------------------------------------------------------------------
+HOW CAN I DOWNLOAD IT 
+-----------------------------------------------------------------------------------------------------------------------
+U can download it from here or copy and paste the text in the main-tool.sh to any .sh file on your device and then make 
+it executable with chmod command like this : 
+
+-----------------------
+Chmod +X main-tool.sh  |
+-----------------------
+
+this command makes the file able to make changes in ur system so that it can write and read from the savedp.txt. do not 
+use this command in places that u dont know what ur doing in our case this helps the tool to run other commands like ssh
+to help u. if ur not sure about the programs ur running on your device please either read their codes urself to make sure 
+they are safe and are not doing anything bad behind the curtains or ask someone professional to read the code for u.
+BE SAFE.
+
+then simply double click with mouse and run it if ur system supports running bash as executables or just run this command :
+
+------------------
+bash main-tool.sh |
+------------------
+
+this command uses tells bash to run the code in shell environment in ur terminal.
+
+or use the command :
+
+--------------------------------------------------------------------
+git clone https://github.com/jackofeverytradings/basic-tty-ssh-tool |
+--------------------------------------------------------------------
+
+this command downloads this whole project in ur home directory then u can make the main-tool.sh executable and run
+it like explained above.
+
+--------------------------------------------------------------------------------------------------------------------
 Im not a professional programer so i would be happy to know if let me know if u found problems in this project in a 
 friendly and cooperative method. thanks for ur attention.
 Be Happy and Free.
