@@ -39,7 +39,7 @@ There are multiple ways u can use this tool:
 4.[Save or Change profiles] add or delete ur connection info as profiles and change and set ur default connection info
 
 ---------------
-LIMITATIONS : |
+| LIMITATIONS |
 ---------------
 /////This tool is made to keep 1 connection at a time if u use the kill it command it kills all running processes with "ssh" 
 in their name so dont contain "ssh" in the main bash file name.
@@ -48,7 +48,7 @@ default in it if u wanna use default connection [lets connect].
 ////Colors and blink effects and emojis might not work well in all terminals specially old versions.
 
 ---------------------------------------
-the savedp.txt file works like this : |
+the savedp.txt file works like this : 
 ---------------------------------------
 
 Quick guide : this file contains all ur servers info in a line format 
@@ -75,7 +75,7 @@ U can download it from here or copy and paste the text in the main-tool.sh to an
 it executable with chmod command like this : 
 
 -----------------------
-Chmod +X main-tool.sh  |
+| Chmod +X main-tool.sh  
 -----------------------
 
 this command makes the file able to make changes in ur system so that it can write and read from the savedp.txt. do not 
@@ -87,7 +87,7 @@ BE SAFE.
 then simply double click with mouse and run it if ur system supports running bash as executables or just run this command :
 
 ------------------
-bash main-tool.sh |
+| bash main-tool.sh 
 ------------------
 
 this command uses tells bash to run the code in shell environment in ur terminal.
@@ -95,7 +95,7 @@ this command uses tells bash to run the code in shell environment in ur terminal
 or use the command :
 
 --------------------------------------------------------------------
-git clone https://github.com/jackofeverytradings/basic-tty-ssh-tool |
+| git clone https://github.com/jackofeverytradings/basic-tty-ssh-tool 
 --------------------------------------------------------------------
 
 this command downloads this whole project in ur home directory then u can make the main-tool.sh executable and run
